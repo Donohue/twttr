@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SafariServices/SafariServices.h>
 #import "CredentialManager.h"
 
-@interface ViewController : UITableViewController <CredentailManagerDelegate>
+@interface ViewController : UITableViewController <CredentailManagerDelegate, SFSafariViewControllerDelegate>
 
 
 @end
