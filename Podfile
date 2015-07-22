@@ -1,4 +1,4 @@
 target 'twttr' do
-  pod 'AFNetworking'
+  pod 'AFNetworking', '2.1'
 end
 
