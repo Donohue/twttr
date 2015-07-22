@@ -24,7 +24,7 @@
                                       options:NSStringDrawingUsesLineFragmentOrigin
                                    attributes:@{NSFontAttributeName: [UIFont systemFontOfSize:kTweetFontSize]}
                                                 context:NULL].size;
-    return ceilf(size.height) + kTextTopPadding * 2 + kUsernameFontSize + 4.0f;
+    return ceilf(size.height) + kTextTopPadding * 2 + kUsernameFontSize + 12.0f;
 }
 
 - (void)setDisplayName:(NSString *)displayName andUsername:(NSString *)username {
