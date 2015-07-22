@@ -7,6 +7,8 @@
 //
 
 #import "Tweet.h"
+#import <CoreSpotlight/CoreSpotlight.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
 @implementation Tweet
 
