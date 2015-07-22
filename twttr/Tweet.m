@@ -19,7 +19,6 @@
 - (id)initWithDict:(NSDictionary *)dict {
     self = [super init];
     if (self) {
-        NSLog(@"DICT: %@", dict);
         self.identifier = dict[@"id_str"];
         self.text = dict[@"text"];
         self.username = dict[@"user"][@"screen_name"];
