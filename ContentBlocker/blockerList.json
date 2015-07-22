@@ -1,0 +1,91 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*doubleclick.net.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*cdn.hymnal.vox.com.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*c.amazon-adsystem.com.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*www.google-analytics.com.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*moatads.com.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*s.yimg.com.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*partner.googleadservices.com.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*edge.quantserve.com/quant.js"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*beacon.krxd.net.*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*beacon.krxd.net.*"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "div[id^=\"chorus-social-fixed\"]"
+        },
+        "trigger": {
+            "url-filter": ".*theverge.com.*"
+        }
+    }
+]
