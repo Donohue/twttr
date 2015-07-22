@@ -61,6 +61,19 @@
     return [self.tweets count];
 }
 
+-(CGFloat)tableView:(nonnull UITableView *)tableView heightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    Tweet *tweet = self.tweets[indexPath.row];
+    return [TweetTableViewCell heightForWidth:tableView.frame.size.width andTweet:tweet.text];
+}
+
+-(NSInteger)tableView:(nonnull UITableView *)tableView indentationLevelForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    return 0;
+}
+
+-(void)tableView:(nonnull UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 -(UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     Tweet *tweet = self.tweets[indexPath.row];
     TweetTableViewCell *cell = (TweetTableViewCell *)[tableView dequeueReusableCellWithIdentifier:kReuseIdentifier];
@@ -74,19 +87,6 @@
     };
     
     return cell;
-}
-
--(CGFloat)tableView:(nonnull UITableView *)tableView heightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    Tweet *tweet = self.tweets[indexPath.row];
-    return [TweetTableViewCell heightForWidth:tableView.frame.size.width andTweet:tweet.text];
-}
-
--(NSInteger)tableView:(nonnull UITableView *)tableView indentationLevelForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    return 0;
-}
-
--(void)tableView:(nonnull UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 #pragma mark CredentialManagerDelegate
