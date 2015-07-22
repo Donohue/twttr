@@ -127,7 +127,7 @@
                                                       error:&error];
         if ([result isKindOfClass:[NSDictionary class]]) {
             dispatch_async(dispatch_get_main_queue(), ^{
-                [self showRateLimitingError];
+                [weakSelf showRateLimitingError];
             });
             return;
         }
@@ -141,7 +141,7 @@
 
         dispatch_async(dispatch_get_main_queue(), ^{
             weakSelf.tweets = arr;
-            [self.tableView reloadData];
+            [weakSelf.tableView reloadData];
         });
     }];
 }
