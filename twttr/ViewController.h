@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CredentialManager.h"
 
-@interface ViewController : UITableViewController
+@interface ViewController : UITableViewController <CredentailManagerDelegate>
 
 
 @end

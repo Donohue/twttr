@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		55B0C0B7A7D24193B282CF24 /* libPods-twttr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B75E1A76E82D41982C24DF /* libPods-twttr.a */; };
+		A861A6761B6009EB006633BB /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = A861A6751B6009EB006633BB /* Tweet.m */; };
+		A861A6791B6012E9006633BB /* TweetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A861A6781B6012E9006633BB /* TweetTableViewCell.m */; };
+		A861A6801B602A15006633BB /* WebBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = A861A67E1B602A15006633BB /* WebBrowserController.m */; };
+		A861A6811B602A15006633BB /* WebBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A861A67F1B602A15006633BB /* WebBrowserController.xib */; };
+		A861A6841B602D74006633BB /* UIImage+ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A861A6831B602D74006633BB /* UIImage+ImageUtils.m */; };
 		A8762CFE1B5FEB6600A98594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8762CFD1B5FEB6600A98594 /* main.m */; };
 		A8762D011B5FEB6600A98594 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8762D001B5FEB6600A98594 /* AppDelegate.m */; };
 		A8762D041B5FEB6600A98594 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8762D031B5FEB6600A98594 /* ViewController.m */; };
@@ -16,8 +21,7 @@
 		A8762D0C1B5FEB6600A98594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8762D0A1B5FEB6600A98594 /* LaunchScreen.storyboard */; };
 		A8762D171B5FEB6600A98594 /* twttrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8762D161B5FEB6600A98594 /* twttrTests.m */; };
 		A8762D221B5FEB6600A98594 /* twttrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8762D211B5FEB6600A98594 /* twttrUITests.m */; };
-		A8762D351B5FFB9600A98594 /* TWAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8762D321B5FFB9600A98594 /* TWAPIManager.m */; };
-		A8762D361B5FFB9600A98594 /* TWSignedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A8762D341B5FFB9600A98594 /* TWSignedRequest.m */; };
+		A8FC182A1B5FFDEC0056F7E4 /* CredentialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC18291B5FFDEC0056F7E4 /* CredentialManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,15 @@
 		0EEDA8A7C8817340818233A1 /* Pods-twttr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twttr.release.xcconfig"; path = "Pods/Target Support Files/Pods-twttr/Pods-twttr.release.xcconfig"; sourceTree = "<group>"; };
 		46B75E1A76E82D41982C24DF /* libPods-twttr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-twttr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B94C3E2A5B585CBEA437C3 /* Pods-twttr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twttr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-twttr/Pods-twttr.debug.xcconfig"; sourceTree = "<group>"; };
+		A861A6741B6009EB006633BB /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		A861A6751B6009EB006633BB /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		A861A6771B6012E9006633BB /* TweetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetTableViewCell.h; sourceTree = "<group>"; };
+		A861A6781B6012E9006633BB /* TweetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetTableViewCell.m; sourceTree = "<group>"; };
+		A861A67D1B602A15006633BB /* WebBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserController.h; sourceTree = "<group>"; };
+		A861A67E1B602A15006633BB /* WebBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserController.m; sourceTree = "<group>"; };
+		A861A67F1B602A15006633BB /* WebBrowserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebBrowserController.xib; sourceTree = "<group>"; };
+		A861A6821B602D74006633BB /* UIImage+ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageUtils.h"; path = "../UIImage+ImageUtils.h"; sourceTree = "<group>"; };
+		A861A6831B602D74006633BB /* UIImage+ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageUtils.m"; path = "../UIImage+ImageUtils.m"; sourceTree = "<group>"; };
 		A8762CF91B5FEB6600A98594 /* twttr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twttr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8762CFD1B5FEB6600A98594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8762CFF1B5FEB6600A98594 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,10 +70,9 @@
 		A8762D1D1B5FEB6600A98594 /* twttrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twttrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8762D211B5FEB6600A98594 /* twttrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twttrUITests.m; sourceTree = "<group>"; };
 		A8762D231B5FEB6600A98594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8762D311B5FFB9600A98594 /* TWAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAPIManager.h; sourceTree = "<group>"; };
-		A8762D321B5FFB9600A98594 /* TWAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAPIManager.m; sourceTree = "<group>"; };
-		A8762D331B5FFB9600A98594 /* TWSignedRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSignedRequest.h; sourceTree = "<group>"; };
-		A8762D341B5FFB9600A98594 /* TWSignedRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSignedRequest.m; sourceTree = "<group>"; };
+		A8FC18281B5FFDEC0056F7E4 /* CredentialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredentialManager.h; sourceTree = "<group>"; };
+		A8FC18291B5FFDEC0056F7E4 /* CredentialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CredentialManager.m; sourceTree = "<group>"; };
+		A8FC182B1B5FFE6F0056F7E4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,16 +113,28 @@
 		5BAF653AA5B476F208AC7CED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8FC182B1B5FFE6F0056F7E4 /* Social.framework */,
 				46B75E1A76E82D41982C24DF /* libPods-twttr.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A861A6851B6030DC006633BB /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				A861A67F1B602A15006633BB /* WebBrowserController.xib */,
+				A861A67D1B602A15006633BB /* WebBrowserController.h */,
+				A861A67E1B602A15006633BB /* WebBrowserController.m */,
+				A861A6821B602D74006633BB /* UIImage+ImageUtils.h */,
+				A861A6831B602D74006633BB /* UIImage+ImageUtils.m */,
+			);
+			name = Browser;
 			sourceTree = "<group>";
 		};
 		A8762CF01B5FEB6600A98594 = {
 			isa = PBXGroup;
 			children = (
 				A8762CFB1B5FEB6600A98594 /* twttr */,
-				A8762D2F1B5FFB8400A98594 /* Third Party */,
 				A8762D151B5FEB6600A98594 /* twttrTests */,
 				A8762D201B5FEB6600A98594 /* twttrUITests */,
 				A8762CFA1B5FEB6600A98594 /* Products */,
@@ -132,10 +156,17 @@
 		A8762CFB1B5FEB6600A98594 /* twttr */ = {
 			isa = PBXGroup;
 			children = (
+				A861A6851B6030DC006633BB /* Browser */,
 				A8762CFF1B5FEB6600A98594 /* AppDelegate.h */,
 				A8762D001B5FEB6600A98594 /* AppDelegate.m */,
 				A8762D021B5FEB6600A98594 /* ViewController.h */,
 				A8762D031B5FEB6600A98594 /* ViewController.m */,
+				A8FC18281B5FFDEC0056F7E4 /* CredentialManager.h */,
+				A8FC18291B5FFDEC0056F7E4 /* CredentialManager.m */,
+				A861A6771B6012E9006633BB /* TweetTableViewCell.h */,
+				A861A6781B6012E9006633BB /* TweetTableViewCell.m */,
+				A861A6741B6009EB006633BB /* Tweet.h */,
+				A861A6751B6009EB006633BB /* Tweet.m */,
 				A8762D051B5FEB6600A98594 /* Main.storyboard */,
 				A8762D081B5FEB6600A98594 /* Assets.xcassets */,
 				A8762D0A1B5FEB6600A98594 /* LaunchScreen.storyboard */,
@@ -169,26 +200,6 @@
 				A8762D231B5FEB6600A98594 /* Info.plist */,
 			);
 			path = twttrUITests;
-			sourceTree = "<group>";
-		};
-		A8762D2F1B5FFB8400A98594 /* Third Party */ = {
-			isa = PBXGroup;
-			children = (
-				A8762D301B5FFB8D00A98594 /* TWAPIManager */,
-			);
-			name = "Third Party";
-			path = twttr;
-			sourceTree = "<group>";
-		};
-		A8762D301B5FFB8D00A98594 /* TWAPIManager */ = {
-			isa = PBXGroup;
-			children = (
-				A8762D311B5FFB9600A98594 /* TWAPIManager.h */,
-				A8762D321B5FFB9600A98594 /* TWAPIManager.m */,
-				A8762D331B5FFB9600A98594 /* TWSignedRequest.h */,
-				A8762D341B5FFB9600A98594 /* TWSignedRequest.m */,
-			);
-			name = TWAPIManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +309,7 @@
 				A8762D0C1B5FEB6600A98594 /* LaunchScreen.storyboard in Resources */,
 				A8762D091B5FEB6600A98594 /* Assets.xcassets in Resources */,
 				A8762D071B5FEB6600A98594 /* Main.storyboard in Resources */,
+				A861A6811B602A15006633BB /* WebBrowserController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,10 +368,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8762D041B5FEB6600A98594 /* ViewController.m in Sources */,
-				A8762D351B5FFB9600A98594 /* TWAPIManager.m in Sources */,
+				A8FC182A1B5FFDEC0056F7E4 /* CredentialManager.m in Sources */,
+				A861A6791B6012E9006633BB /* TweetTableViewCell.m in Sources */,
+				A861A6761B6009EB006633BB /* Tweet.m in Sources */,
 				A8762D011B5FEB6600A98594 /* AppDelegate.m in Sources */,
-				A8762D361B5FFB9600A98594 /* TWSignedRequest.m in Sources */,
 				A8762CFE1B5FEB6600A98594 /* main.m in Sources */,
+				A861A6801B602A15006633BB /* WebBrowserController.m in Sources */,
+				A861A6841B602D74006633BB /* UIImage+ImageUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,8 +513,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63B94C3E2A5B585CBEA437C3 /* Pods-twttr.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = twttr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bthdonohue.twttr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,8 +527,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0EEDA8A7C8817340818233A1 /* Pods-twttr.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = twttr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bthdonohue.twttr;
 				PRODUCT_NAME = "$(TARGET_NAME)";

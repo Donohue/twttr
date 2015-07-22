@@ -4,17 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Base64.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>NSData+Base64.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OAuthCore.xcscheme</key>
+		<key>AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>659D2C661AA9EA19ED9498AAA8949756</key>
+		<key>1990243E6842CCEBD767FE85B709C7CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>82A487B59DD7381B4659AF25D3F552E5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B6FDC096BE44B6DE7784CF6C7CE380DA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BE19C53C73EAB011F4884D3558DA6CAB</key>
+		<key>D3AAD5B74DE8C3649A4C76EBC593CB45</key>
 		<dict>
 			<key>primary</key>
 			<true/>
