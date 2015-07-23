@@ -82,11 +82,16 @@
     [cell setDisplayName:tweet.displayname andUsername:tweet.username];
     
     cell.linkBlock = ^(NSURL *url) {
-        WebBrowserController *webBrowserController = [[WebBrowserController alloc] initWithURL:url];
-        [self presentViewController:webBrowserController animated:YES completion:nil];
+        SFSafariViewController *safariViewController = [[SFSafariViewController alloc] initWithURL:url];
+        safariViewController.delegate = self;
+        [self presentViewController:safariViewController animated:YES completion:nil];
     };
     
     return cell;
+}
+
+-(void)safariViewControllerDidFinish:(nonnull SFSafariViewController *)controller {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark CredentialManagerDelegate
